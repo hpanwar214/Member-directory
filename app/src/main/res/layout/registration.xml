@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbarAlwaysDrawVerticalTrack="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/signup"
+            android:textColor="#000000"
+            android:textSize="@dimen/padding_xxlarge" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10sp"
+            android:src="@drawable/ic_launcher_background" />
+
+        <EditText
+            android:id="@+id/urname"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/padding_large"
+            android:hint="Name"
+            android:inputType="textPersonName"
+            android:textColor="#000000" />
+
+        <EditText
+            android:id="@+id/dob"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:hint="D.O.B."
+            android:inputType="date"
+            android:textColor="#000000" />
+
+        <EditText
+            android:id="@+id/phone"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:hint="Mobile Number"
+            android:inputType="number"
+            android:textColor="#000000" />
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:hint="Email ID"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/city"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:hint="City"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/institute"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:hint="Institutute Name"
+            android:inputType="text" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/branch"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:hint="Branch"
+                android:inputType="textCapWords" />
+
+            <EditText
+                android:id="@+id/passOut"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:hint="Passing Year"
+                android:inputType="number" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/signupBut"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@color/colorAccent"
+            android:text="@string/enter" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/padding_large"
+            android:gravity="center"
+            android:text="@string/copyright_notice"
+            android:textSize="@dimen/text_size_large" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

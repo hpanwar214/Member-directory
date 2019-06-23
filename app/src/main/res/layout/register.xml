@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="64dp"
+            android:layout_marginTop="@dimen/padding"
+            android:layout_marginBottom="10dp"
+            android:text="@string/signup"
+            android:textColor="#000000"
+            android:textSize="@dimen/padding_xxlarge" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_launcher_background" />
+
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/padding_large"
+            android:text="@string/name"
+            android:textColor="#000000" />
+
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:text="@string/dob"
+            android:textColor="#000000" />
+
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:text="@string/mnum"
+            android:textAllCaps="true"
+            android:textColor="#000000" />
+
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:text="@string/email" />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@color/colorAccent"
+            android:text="@string/enter" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/padding_large"
+            android:gravity="center"
+            android:text="@string/copyright_notice"
+            android:textSize="@dimen/text_size_large" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
